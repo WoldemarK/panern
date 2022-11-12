@@ -1,7 +1,7 @@
 package Starbuzz;
 
 public abstract class CondimentDecorator extends Beverage {
-    protected Beverage beverage;
+    Beverage beverage;
     public abstract String getDescription();
 
 }
